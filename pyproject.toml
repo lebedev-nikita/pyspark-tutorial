@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyspark-test"
+version = "0.1.0"
+description = ""
+authors = ["Lebedev Nikita <lebedevna@consultant.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+pyspark = "^3.5.0"
+pandas = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
